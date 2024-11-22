@@ -12,6 +12,9 @@
     <link href="https://www.flaticon.com/?k=1731866416334&log-in=google" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 
 <body>
@@ -22,29 +25,40 @@
         <a href="klantenservice.html">Klantenservice</a>
     </div>
 
+    <div id="logo">
+        <a href="webshop2.html">Lumière de Peau</a>
+    </div>
 
     <header>
-        <div>
-            <a href="webshop2.html">Lumière de Peau</a>
+    
+        <input type="checkbox" id="toggleSidebar" class="toggle-sidebar">
+
+        <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left">
+            <label class="w3-bar-item w3-button w3-large" for="toggleSidebar">Close &times;</label>
+            <a href="menu.html" class="w3-bar-item w3-button">Menu</a>
+            <a href="producten.html" class="w3-bar-item w3-button">Producten</a>
+            <a href="contacten.html" class="w3-bar-item w3-button">Contacten</a>
+            <a href="over-ons.html" class="w3-bar-item w3-button">Over ons</a>
+        </div>
+        
+        <label class="w3-button w3-white w3-xxlarge" for="toggleSidebar">&#9776;</label>
+
+        <div class="w3-container">
+            
         </div>
 
-        <div id="sidebar">
-            <a href="menu">Menu</a>
-            <a href="producten">Producten</a>
-            <a href="contact.html">Contact</a>
-            <a href="over_ons">Over ons</a>
-        </div>
+        <div class="header-bottom">
+            <nav class="nav-categories">
+                <ul class="nav-categories-list">
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Gezicht</a>
+                        <div class="dropdown-content">
+                            <a href="gezichtscreme.html">Gezichtscrème</a>
+                            <a href="reinigers.html">Reinigers</a>
+                            <a href="masker.html">Maskers</a>
+                        </div>
+                    </li>
 
-        <nav>
-            <ul class="nav-categories">
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Gezicht</a>
-                    <div class="dropdown-content">
-                        <a href="gezichtscreme.html">Gezichtscrème</a>
-                        <a href="reinigers.html">Reinigers</a>
-                        <a href="masker.html">Maskers</a>
-                    </div>
-                </li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Lichaam</a>
                     <div class="dropdown-content">
@@ -79,8 +93,10 @@
                 </li>
             </ul>
         </nav>
+        
 
-        <div>
+
+        <div class="search-container">
             <input type="text" placeholder="Zoeken..." class="search-bar">
             <a href="shopping_cart_page.html">
                 <i class="material-icons">shopping_cart</i>
@@ -89,11 +105,12 @@
             <i class="material-icons">account_circle</i>
             </a>
         </div>
+    </div>
     </header>
 
     <main>
-        <div>
-            <img src="banner.gif" alt="Banner Image">
+        <div  id="banner-container">
+            <img src="images/banner.gif" alt="Banner Image">
     
             <div>
                 <h1>Geef het cadeau van verzorging deze kerst</h1>
