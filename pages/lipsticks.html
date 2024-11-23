@@ -4,67 +4,240 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gezichtscrème - Lumière de Peau</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lipstick.css>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px ;
+    background-color: #666;
+  }
+  .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .menu li {
+    margin: 0 15px;
+  }
+  .menu a {
+    text-decoration: dotted;
+    color:white;
+    font-weight: bold;
+  }
+  .menu a:hover {
+    color: #555
+  }
+
+    .naam{
+        text-align: center;
+    }
+
+
+
+    .balk {
+    display: flex;
+    width: 20em;
+    background:white;
+    box-shadow: 5px 5px 15px 5px #666;
+    padding: 20px;
+    flex: 1 1 300px;
+    box-sizing: border-box;
+    flex-direction: column;
+
+
+  }
+
+  p {
+    font-size: 0.6;
+    color: #666;
+    letter-spacing: 1px;
+    align-items: center;
+    margin-left: 10px;
+    
+  }
+
+  
+
+
+& .product {
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 10px;
+
+    }
+
+    & button {
+    background: #666;
+    padding: 10px;
+    display: inline-block; 
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer; 
+
+    &:hover {
+        background-color: #cda9ac;
+        transition: all 0.4s ease-in-out;
+    }
+    }
+
+& .add {
+    width: 67%;
+}
+
+& .like {
+    width:22%;
+}
+
+.Product_Overzicht {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh; 
+ 
+}
+
+.PerTwee {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ 
+    </style>
 </head>
 <body>
     <header>
-        <h1>Lumière de Peau</h1>
-        <nav>
+        <div class="header">
+            <h1 class="logo">Lumiére de Peau</h1>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="categorieen.html">Categorieën</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
     <main>
-        <section id="producten" class="producten">
-            <h3>Lipsticks</h3>
-            <div class="product-grid">
-                <section id="producten" class="producten">
-    
-                <div class="product-card">
-                    <img src="" alt="" width="200">
-                    <h3></h3>
-                    <p></p>
-                    <div class="price">€</div>
-                    <button class="add-to-cart">
-                        <i class="fas fa-shopping-bag"></i>
-                    </button>
-                </div>
-
-                <div class="product-card">
-                    <img src="" alt="" width="200">
-                    <h3></h3>
-                    <p></p>
-                    <div class="price">€</div>
-                    <button class="add-to-cart">
-                        <i class="fas fa-shopping-bag"></i>
-                    </button>
-                </div>
-
-                <div class="product-card">
-                    <img src="" alt="" width="200">
-                    <h3></h3>
-                    <p></p>
-                    <div class="price">€</div>
-                    <button class="add-to-cart">
-                        <i class="fas fa-shopping-bag"></i>
-                    </button>
-                </div>
-
-
-            </div>
+        <section class="naam">
+        <h2>Lipstick</h2>
         </section>
+       
+        <section class="Product_Overzicht">
+            <section class="PerTwee">
+            
+                <section class="balk">
+                    <section class="foto_1">
+                        <img src="data:image/jpeg;base64,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" alt="" width="150">
+            </section>
+                <section class="product">
+                <p class="erover">
+                   <h3>Mac</h3> 
+                   Silky Matte Lipstick 
+                   M.A - Cximal
+                </p>
+                   <h4>€26,99</h4>
+                
+                <section class="button">
+                    <button class="add">In de mand</button>
+                    <button class="like">
+                        <span>❤️</span>
+                        </button>
+                    </section>
+                </section>
+                    </section>
+
+
+                    <section class="balk">
+                        <section class="foto_1">
+                            <img src="https://sdcdn.io/mac/ae/mac_sku_SW4H3R_1x1_0.png?width=1080&height=1080" alt="" width="150">
+                </section>
+                    <section class="product">
+                    <p class="erover">
+                        <h3>Mac</h3> 
+                        Sleek Satin Matte Lipstick 
+                        M.A - Cximal
+                     </p>
+                        <h4>€26,99</h4>
+                    <section class="button">
+                        <button class="add">In de mand</button>
+                        <button class="like">
+                            <span>❤️</span>
+                            </button>
+                        </section>
+                    </section>
+                        </section>
+
+                        <section class="balk">
+                            <section class="foto_1">
+                                <img src="https://sdcdn.io/mac/de/mac_sku_NW9M13_1x1_0.png?width=1080&height=1080" alt="" width="150">
+                    </section>
+                        <section class="product">
+                        <p class="erover">
+                            <h3>Mac</h3> 
+                            Frost Matte Lipstick 
+                            M.A - Cximal
+                         </p>
+                            <h4>€26,99</h4>
+                        <section class="button">
+                            <button class="add">In de mand</button>
+                            <button class="like">
+                                <span>❤️</span>
+                                </button>
+                            </section>
+                        </section>
+                            </section>
+
+
+                            <section class="balk">
+                                <section class="foto_1">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpZOuaWyUjlabdxtudXoMJcRoJnkAVob8ieA&s" alt="" width="150">
+                        </section>
+                            <section class="product">
+                            <p class="erover">
+                                <h3>Mac</h3> 
+                               Powder Kiss  Lipstick 
+                                M.A - Cximal
+                             </p>
+                                <h4>€26,99</h4>
+                            <section class="button">
+                                <button class="add">In de mand</button>
+                                <button class="like">
+                                    <span>❤️</span>
+                                    </button>
+                                </section>
+                            </section>
+                                </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Lumière de Peau. Alle rechten voorbehouden.</p>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+    
+    
+
+
+     
+
+
+
 </body>
 </html>
