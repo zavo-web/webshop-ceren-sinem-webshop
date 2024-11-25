@@ -4,25 +4,24 @@ body, html {
     margin: 0;
   }
   
+ 
   .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.gif");
-    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5)), url("images/banner.gif");
+    height:50%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
-  
-  .tekst_banner {
-    text-align: center;
+  .tekst_overlay {
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   }
-  .tekst_banner button {
+  .tekst_overlay button {
     border: 2px solid #555;
     border-radius: 8px;
     padding: 5px;
@@ -35,19 +34,19 @@ body, html {
     cursor: pointer;
   }
   
-  .tekst_banner button:hover {
+  .tekst_overlay button:hover {
     background-color: #555;
     color: white;
   }
 
   .dark-overlay {
-    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
 
