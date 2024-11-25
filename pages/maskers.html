@@ -3,68 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gezichtscrème - Lumière de Peau</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>gezichtmasker - Lumière de Peau</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px ;
+    background-color: #666;
+  }
+  .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .menu li {
+    margin: 0 15px;
+  }
+  .menu a {
+    text-decoration: dotted;
+    color:white;
+    font-weight: bold;
+  }
+  .menu a:hover {
+    color: #555
+  }
+
+    .naam{
+        text-align: center;
+    }
+
+
+
+    .balk {
+    display: flex;
+    width: 20em;
+    background:white;
+    box-shadow: 5px 5px 15px 5px #666;
+    padding: 20px;
+    flex: 1 1 300px;
+    box-sizing: border-box;
+    flex-direction: column;
+
+
+  }
+
+  p {
+    font-size: 0.6;
+    color: #666;
+    letter-spacing: 1px;
+    align-items: center;
+    margin-left: 10px;
+    
+  }
+
+  
+
+
+& .product {
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 10px;
+
+    }
+
+    & button {
+    background: #666;
+    padding: 10px;
+    display: inline-block; 
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer; 
+
+    &:hover {
+        background-color: #cda9ac;
+        transition: all 0.4s ease-in-out;
+    }
+    }
+
+& .add {
+    width: 67%;
+}
+
+& .like {
+    width:22%;
+}
+
+.Product_Overzicht {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh; 
+ 
+}
+
+.PerTwee {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ 
+    </style>
 </head>
 <body>
     <header>
-        <h1>Lumière de Peau</h1>
-        <nav>
+        <div class="header">
+            <h1 class="logo">Lumiére de Peau</h1>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="categorieen.html">Categorieën</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
     <main>
-        <section id="producten" class="producten">
-            <h3>Maskers</h3>
-            <div class="product-grid">
-                <section id="producten" class="producten">
-    
-                <div class="product-card">
-                    <img src="" alt="" width="200">
-                    <h3></h3>
-                    <p></p>
-                    <div class="price">€</div>
-                    <button class="add-to-cart">
-                        <i class="fas fa-shopping-bag"></i>
-                    </button>
-                </div>
-
-                <div class="product-card">
-                    <img src="" alt="" width="200">
-                    <h3></h3>
-                    <p></p>
-                    <div class="price">€</div>
-                    <button class="add-to-cart">
-                        <i class="fas fa-shopping-bag"></i>
-                    </button>
-                </div>
-
-                <div class="product-card">
-                    <img src="" alt="" width="200">
-                    <h3></h3>
-                    <p></p>
-                    <div class="price">€</div>
-                    <button class="add-to-cart">
-                        <i class="fas fa-shopping-bag"></i>
-                    </button>
-                </div>
-
-
-            </div>
+        <section class="naam">
+        <h2>Maskers</h2>
         </section>
+<br>
+        <section class="Product_Overzicht">
+            <section class="PerTwee">
+            
+                <section class="balk">
+                    <section class="foto_1">
+                        <img src="https://cdn.webshopapp.com/shops/243452/files/460617722/300x300x1/biodance-bio-collagen-real-deep-mask.jpg" alt="" width="250">
+            </section>
+                <section class="product">
+                <p class="erover">
+                   <h3>Biodance</h3> 
+                   Bio-Collagen Real Deep Mask 
+                   Gezichtmasker
+                </p>
+                   <h4>€6,99</h4>
+                
+                <section class="button">
+                    <button class="add">In de mand</button>
+                    <button class="like">
+                        <span>❤️</span>
+                        </button>
+                    </section>
+                </section>
+                    </section>
+
+
+                    <section class="balk">
+                        <section class="foto_1">
+                            <img src="https://cdn.webshopapp.com/shops/243452/files/466275126/300x300x1/biodance-hydro-cera-nol-real-deep-mask.jpg" alt="" width="270">
+                </section>
+                    <section class="product">
+                    <p class="erover">
+                        <h3>Biodance</h3> 
+                        Hydro Cera-nol Real 
+                        Gezichtmasker
+                     </p>
+                        <h4>€6,23</h4>
+                    <section class="button">
+                        <button class="add">In de mand</button>
+                        <button class="like">
+                            <span>❤️</span>
+                            </button>
+                        </section>
+                    </section>
+                        </section>
+
+                        <section class="balk">
+                            <section class="foto_1">
+                                <img src="https://cdn.webshopapp.com/shops/243452/files/461007372/300x300x1/beauty-of-joseon-ground-rice-and-honey-glow-mask.jpg" alt="" width="250">
+                    </section>
+                        <section class="product">
+                        <p class="erover">
+                            <h3> Beauty of Joseon </h3> 
+                            Ground Rice and Honet Glow Mask
+                            Gezichtmasker 
+                         </p>
+                            <h4>€17,90</h4>
+                        <section class="button">
+                            <button class="add">In de mand</button>
+                            <button class="like">
+                                <span>❤️</span>
+                                </button>
+                            </section>
+                        </section>
+                            </section>
+
+
+<section class="balk">
+<section class="foto_1">
+<img src="https://cdn.webshopapp.com/shops/243452/files/451322830/300x300x1/laneige-water-sleeping-mask.jpg" alt="" width="230">
+</section>
+<section class="product">
+<p class="erover">
+<h3>Laneige</h3> 
+Water sleeming mask
+Gezichtcréme
+</p>
+<h4>€26,41</h4>
+<section class="button">
+  <button class="add">In de mand</button>
+ <button class="like">
+   <span>❤️</span>
+ </button>
+  </section>
+</section>
+  </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Lumière de Peau. Alle rechten voorbehouden.</p>
     </footer>
-
-    <!-- JavaScript -->
-    <script src="script.js"></script>
 </body>
 </html>
