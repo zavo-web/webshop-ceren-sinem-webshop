@@ -55,7 +55,7 @@
 }
 
 .product-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
     flex: 2;
@@ -68,7 +68,7 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:space-between;
     height: 450px; 
     width: 250px;
     margin-bottom: 30px;
@@ -196,6 +196,10 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.producten h3 {
+  text-align: center;
+}
+
 
 .product-card h3 {
   font-size: 1.2rem;
@@ -265,6 +269,13 @@
   margin-top: 20px;
 }
 
+.product-sets h2 {
+  text-align: center;
+}
+
+.set-card {
+  text-align: center;
+}
 
 
 
