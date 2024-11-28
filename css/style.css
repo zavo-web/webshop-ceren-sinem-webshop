@@ -62,7 +62,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #252525;
+    background-color: #f9f9f9;
     padding: 10px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
@@ -80,8 +80,8 @@ header {
   position: relative;          
   width: 100%;                 
   padding: 10px 20px;  
-  background-color: #595959;  
-  height: 70px;       
+  background-color:rgb(235, 235, 235);  
+  height: 50px;       
 }
 
 #logo {
@@ -109,7 +109,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #ffffff;
+  color: #151515;
   margin-left: 20px;
   font-size: 12px;
 }
@@ -149,8 +149,8 @@ header {
 }
 
 .dropdown .dropbtn {
-    background-color:rgb(37, 37, 37);
-    color: #ffffff;
+    background-color:rgb(238, 238, 238);
+    color: #000000;
     padding: 10px 20px;
     border: 0px;
     cursor: pointer;
@@ -668,6 +668,9 @@ label[for="toggleSidebar"] {
   margin-bottom: 60px;
   justify-content: space-between;
 }
+background-color: #fff;
+    
+
 
 .set-card img {
   width: 100%;
