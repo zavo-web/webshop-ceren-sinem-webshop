@@ -406,10 +406,11 @@ label[for="toggleSidebar"] {
 
   .hero-products-container {
     display: flex;
-    align-items: flex-start;
+    align-items:center;
     justify-content: space-between;
-    gap: 10px;
-    padding: 20px;
+    gap: 0px;
+    padding: 40px;
+    padding-right:100px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -420,7 +421,9 @@ label[for="toggleSidebar"] {
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 100px;
 }
 
 .hero h1 {
@@ -444,25 +447,24 @@ label[for="toggleSidebar"] {
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
-  gap: 5px;
+  gap: 2px;
   flex: 2;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .product-card {
     background-color: #fff;
-    
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 2px;
     height: 400px; 
     width: 200px;
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 5px;
     
 }
 
@@ -505,6 +507,12 @@ label[for="toggleSidebar"] {
   border-radius: 8px;
   margin-bottom: 15px;
 }
+
+
+
+
+
+
 
 
 
