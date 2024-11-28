@@ -291,6 +291,7 @@ body {
     overflow-x: hidden;
     transition: 0.3s; 
     padding-top: 60px;
+    
 }
 
 
@@ -310,6 +311,16 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
+.navigatie_icoon {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
 
 label[for="toggleSidebar"] {
     position: absolute;
