@@ -13,15 +13,28 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    text-align: center;
   }
 
   .tekst_overlay {
+    padding: 20px;
+    border-radius: 8px;
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+.tekst_overlay h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+
+  .tekst_overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
   }
   
   .tekst_overlay button  {
