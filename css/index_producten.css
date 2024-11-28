@@ -237,7 +237,7 @@ color: #333;
 
 
 .set-product-card {
-  width: 350px; 
+  width: 400px; 
   height: 550px;
   border: 2px solid #d8d8d8; 
   border-radius: 1px;
@@ -253,6 +253,7 @@ color: #333;
   margin-bottom: 70px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -297,7 +298,28 @@ color: #333;
 
 
 
+.set-product-card .add-to-cart {
+  background-color: rgb(233, 233, 233);
+  color: rgb(7, 7, 7); 
+  border: 0;
+  border-radius: 2px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 300px;
+}
 
+.set-product-card .add-to-cart i {
+ 
+  margin-right: 5px; 
+}
+
+
+.set-product-card .add-to-cart:hover {
+  background-color: #d5d5d5; 
+  color: #000000;
+}
 
 
 
