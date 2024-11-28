@@ -1,39 +1,39 @@
 <!--css door sinem en ceren--> 
-  .hero-products-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.hero-products-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .hero {
-    flex: 1;
-    max-width: 30%;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 80px;
+  flex: 1;
+  max-width: 30%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
 }
 
 .hero h1 {
-  font-size:1.8ch;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(131, 121, 69);
+font-size:1.8ch;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(131, 121, 69);
 
 }
 
 .hero h2 {
-  font-size:3ch;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size:3ch;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
 .hero h3 {
-  font-size:1ch;
-  color: #333;
+font-size:1ch;
+color: #333;
 }
 
 .product-grid {
