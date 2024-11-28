@@ -1,31 +1,44 @@
 
 header {
-    background-color: #6e6e6e; 
-    color: white; 
-    padding: 10px 0;
+    background-color: rgb(235, 235, 235);
+    color: #404040;
+    padding: 15px 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.115);
 }
 
-header .header-content {
+.header-content {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-right: 40%;
 }
 
-header a {
-    color: rgb(255, 255, 255);
+.header-content a {
+    color: #101010;
     text-decoration: none;
     font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-header p {
-    font-size: 18px;
+.header-content a:hover {
+    color: #000;
+}
+
+.header-content p {
+    font-size: 24px;
     font-weight: bold;
-    letter-spacing: 1px;
+    text-transform: uppercase;
     margin: 0;
+    
 }
 
 .Balk {
@@ -36,6 +49,8 @@ header p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
+    margin-left: 520px;
+    margin-top: 20px;
     
 }
 
@@ -93,4 +108,26 @@ header p {
 
 .login-button:hover, .continue-button:hover {
     opacity: 0.9;
+}
+
+   
+footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color:rgb(235, 235, 235);
+    color: #111111;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
 }
