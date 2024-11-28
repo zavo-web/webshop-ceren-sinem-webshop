@@ -669,7 +669,7 @@ label[for="toggleSidebar"] {
   margin-bottom: 60px;
   justify-content: space-between;
 }
-background-color: #fff;
+
     
 
 
@@ -708,6 +708,7 @@ background-color: #fff;
   justify-content: center; 
   margin-top: 20px;
   padding: 0 20px; 
+  justify-content: space-between;
 }
 
 
