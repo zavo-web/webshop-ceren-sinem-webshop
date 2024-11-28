@@ -306,7 +306,7 @@ body {
 }
 
 .w3-sidebar a:hover {
-    background-color: #837a7a;
+    background-color: #4d3c3c;
     color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -327,7 +327,7 @@ label[for="toggleSidebar"] {
     top: 20px;
     left: 20px;
     font-size: 30px;
-    color: #111;
+    color: #000000;
     background-color: transparent;
     border: none;
     cursor: pointer;
