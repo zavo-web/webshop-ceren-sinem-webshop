@@ -269,7 +269,7 @@ header {
 body {
     margin: 50px;
     padding: 0px;
-    font-family: Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 
@@ -476,6 +476,7 @@ label[for="toggleSidebar"] {
     width: 200px;
     margin-bottom: 30px;
     margin-left: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
@@ -507,6 +508,7 @@ label[for="toggleSidebar"] {
   grid-template-columns: repeat(5, 1fr); 
   gap: 20px;
   margin-top: 29px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
