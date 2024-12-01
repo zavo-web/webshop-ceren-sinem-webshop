@@ -1,43 +1,5 @@
 <!--css door ceren--> 
 
-
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px ;
-    background-color: rgb(235, 235, 235);
-  }
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-  }
-  .menu ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  .menu li {
-    margin: 0 15px;
-  }
-  .menu a {
-    text-decoration: dotted;
-    color:white;
-    font-weight: bold;
-  }
-  .menu a:hover {
-    color: #555
-  }
-
-    .naam{
-        text-align: center;
-    }
-
-
-
     .balk {
     display: flex;
     width: 20em;
