@@ -8,13 +8,7 @@ header {
     
 }       
 
-header {
-    width: 100%;
-    background-color:#f8f3ee;
-    padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-}
+
 
 
 .header-container {
@@ -24,7 +18,7 @@ header {
     position: relative;          
     width: 100%;                 
     padding: 10px 20px;  
-    background-color: #f8eee6;  
+    background-color: #f1e2dd;  
     height: 70px;       
 }
   
@@ -245,7 +239,6 @@ header {
 
 
 
-
 #icons {
     display: flex;
     gap: 20px;
@@ -254,6 +247,10 @@ header {
 
 #icons a {
     display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
     
 }
 
@@ -267,10 +264,13 @@ header {
 
 
 
+
+
 body {
     margin: 50px;
     padding: 0px;
-    font-family: Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#fffbf7;
 }
 
 
