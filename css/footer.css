@@ -9,50 +9,63 @@ footer {
 
 
 .footer-top {
+  text-align: left;
   padding: 20px;
-  border-bottom: 1px solid #444;
+  background-color: #fffbf7; 
+  color: #272424; 
 }
 
 .footer-top h2 {
-  font-size: 18px;
+  font-size: 1.5rem; 
   margin-bottom: 10px;
 }
 
 .footer-top p {
-  font-size: 14px;
+  font-size: 0.9rem;
+  color: #342e2e;
   margin-bottom: 15px;
-  color: #090909;
+  line-height: 1.6;
 }
+
 
 .footer-form {
   display: flex; 
-  justify-content: center; 
-  align-items: center;
+  align-items: center; 
+  justify-content: flex-start; 
   gap: 10px; 
+  margin-top: 20px; 
 }
+
 
 .footer-form input[type="email"] {
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 14px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff; 
   border-radius: 5px;
-  width: 250px; 
-  box-sizing: border-box; 
-
+  width: 300px; 
+  color: #000000;
+  background-color: #ffffff; 
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.218);
 }
+
+
 
 .footer-form button {
   padding: 10px 20px;
-  background-color: #0073e6;
-  color: white;
-  border: none;
+  background-color: #f0e7e3; 
+  color: #000000; 
+  border: 1px solid #ffffff; 
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
+  text-transform: uppercase;
+
 }
 
 .footer-form button:hover {
-  background-color: #005bb5;
+  background-color: #f0e7e3; 
+  color: #000000;
 }
 
 
