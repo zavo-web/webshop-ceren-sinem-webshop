@@ -15,8 +15,8 @@ body {
 
 
 header {
-    background-color:rgb(235, 235, 235);
-    color: #404040;
+    background-color: #f1e2dd;
+    color: #302929;
     padding: 15px 0;
     text-align: center;
     position: fixed;
@@ -95,7 +95,7 @@ main {
 }
 
 footer {
-    background-color:rgb(235, 235, 235);
+    background-color: #f1e2dd;
     color: #111111;
     text-align: center;
     padding: 20px;

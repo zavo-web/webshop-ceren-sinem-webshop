@@ -1,6 +1,6 @@
 
 header {
-    background-color: rgb(235, 235, 235);
+    background-color: #f1e2dd;
     color: #404040;
     padding: 15px 0;
     text-align: center;
@@ -136,7 +136,7 @@ footer a:hover {
 }
 
 footer {
-    background-color:rgb(235, 235, 235);
+    background-color: #f1e2dd;
     color: #111111;
     text-align: center;
     padding: 10px;
