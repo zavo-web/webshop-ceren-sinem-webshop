@@ -46,7 +46,7 @@ header {
 
 
 main {
-    margin-top: 100px; 
+    margin-top: 15%; 
     padding: 20px;
     max-width: 1200px;
     margin: 10px auto;
@@ -55,9 +55,14 @@ main {
     
 }
 
+.about-us {
+    margin-top: 7%;
+}
+
+
 .about-us h1, .about-us h2 {
     font-size: 2rem;
-    color: #444;
+    color: #242121;
     margin-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

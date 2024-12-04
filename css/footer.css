@@ -63,6 +63,17 @@ footer {
 
 }
 
+.social-logo {
+  display: block;
+  width: 150px; 
+  height: auto; 
+  margin: 0 auto; 
+  margin-top: 10px; 
+  margin-left: 50%;
+}
+
+
+
 .footer-form button:hover {
   background-color: #f0e7e3; 
   color: #000000;
