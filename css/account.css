@@ -2,9 +2,9 @@
 header {
     background-color: #f1e2dd;
     color: #404040;
-    padding: 15px 0;
+    padding: 0px 0;
     text-align: center;
-    position: fixed;
+    height: 5%;
     width: 100%;
     top: 0;
     left: 0;
@@ -46,7 +46,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 5%;
+    margin-bottom: 10%;
     }
     
     .login-balk {
