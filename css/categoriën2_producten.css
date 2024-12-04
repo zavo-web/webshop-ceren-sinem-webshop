@@ -1,3 +1,4 @@
+<!--door Ceren-->
 header {
     background-color:   #f1e2dd;
     color: #404040;
@@ -53,17 +54,14 @@ header {
     display: flex; 
     flex-direction: column;
     justify-content: space-between; 
-    
-
   }
 
   p {
     font-size: 0.6;
     color: #666;
     letter-spacing: 1px;
-    align-items: cener;
+    align-items: center;
     margin-left: 0px;
-    
   }
 
   h4 {
