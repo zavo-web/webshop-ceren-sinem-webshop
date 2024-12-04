@@ -1,0 +1,400 @@
+<!--css door sinem-->
+
+header {
+    width: 100%;
+    background-color: #f8f3ee;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}       
+
+
+
+
+.header-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;         
+    position: relative;          
+    width: 100%;                 
+    padding: 10px 20px;  
+    background-color: #f1e2dd;  
+    height: 70px;       
+}
+  
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #6b6a6a;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #313030;
+    margin-left: 20px;   
+}
+
+.header-nav a:hover {
+    color:rgb(131, 121, 69);
+    
+}
+
+
+
+
+
+#logo {
+    position: absolute;          
+    left: 50%;                    
+    transform: translateX(-50%); 
+    text-align: center;
+    padding: 10px 0; 
+}
+
+  
+#logo a {
+    font-size: 36px;
+    font-weight: bold;
+    color: #342a23;;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+
+
+
+.nav-links {
+  display: flex;               
+  margin-left: auto;            
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #9a7058;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+
+.nav-links a:hover {
+  color: #d7a59c;
+}
+
+.nav-links a:hover {
+    color: rgb(131, 121, 69);
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropbtn {
+    background-color:#f3eee9;
+    color:#3c332d;
+    padding: 10px 20px;
+    border: 0px #d8a994;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f0e7e3;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #fef9f7;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 1px;
+}
+
+
+.dropdown-content a {
+    color:rgb(131, 121, 69);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f0e7e3;
+}
+
+
+
+
+
+
+
+
+
+
+#top-bar {
+    display: flex;
+    justify-content:flex-end;
+    gap: 20px;
+    font-size: 12px;
+    color: #6c6c6c;
+    padding: 10px 20px;
+}
+
+#top-bar a {
+    text-decoration: none;
+    color: #959292;
+    transition: color 0.3s ease;
+}
+
+#top-bar a:hover {
+    color: #6e6e6e;
+}
+
+
+
+
+
+
+
+
+#nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+#categories ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#categories li {
+    font-size: 14px;
+}
+
+#categories a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+#categories a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+#search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #a08d8d;
+    border-radius: 20px; 
+    width: 200px;
+  
+}
+
+#search-bar button {
+    padding: 8px 12px;
+    background-color: #d87e68;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#search-bar button:hover {
+    background-color: #000000;
+}
+
+
+
+
+
+#icons {
+    display: flex;
+    gap: 20px;
+}
+
+#icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.navigatie_icoon {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+
+
+
+body {
+    margin: 50px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#fffbf7;
+}
+
+
+
+
+.toggle-sidebar {
+    display: none;
+    
+}
+
+
+
+.w3-sidebar {
+    height: 100%;
+    width: 250px; 
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    z-index: 1;
+    background-color: #9a8080;
+    overflow-x: hidden;
+    transition: 0.3s; 
+    padding-top: 60px; 
+}
+
+
+.w3-sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    display: block;
+    transition: 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.w3-sidebar a:hover {
+    background-color: #837a7a;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+label[for="toggleSidebar"] {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: #111;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.w3-container {
+    margin-left: 50px;
+}
+
+
+.toggle-sidebar:checked + .w3-sidebar {
+    left:0px;
+}
+
+
+.toggle-sidebar:checked + .w3-sidebar + label[for="toggleSidebar"] {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-categories {
+    display: flex;
+    flex-grow: 1; 
+}
+
+.nav-categories-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-categories-list li {
+    margin-right: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+}
+
+.search-bar {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: px;
+    
+}
+
+.material-icons {
+    margin: 0 5px;
+}
+
