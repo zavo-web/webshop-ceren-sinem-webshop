@@ -50,7 +50,7 @@ header {
     margin-top: 80px;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+    display: inline-flexbox;
   }
 
   p {
@@ -70,6 +70,7 @@ header {
 flex-direction: column;
 justify-content: space-between;
 margin-left: 10px;
+
 
     }
 
